@@ -11,3 +11,4 @@ Gateway=192.168.1.1
 DNS=192.168.1.222">>/etc/systemd/network/eth0.network
 cat /etc/systemd/network/eth0.network
 hostname -I
+rm set-ip.sh
