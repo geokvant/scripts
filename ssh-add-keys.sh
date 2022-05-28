@@ -8,3 +8,5 @@ apt-get install openssh-server nano gnupg wget sudo curl -y
 rm /etc/ssh/ssh_host_*
 dpkg-reconfigure openssh-server
 hostname -I
+cd
+rm ssh-add-keys.sh
