@@ -7,6 +7,7 @@ echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOYns5JC5Ed7Ssg3etYR/QnB2EmCixGryK0bUW
 apt-get install openssh-server nano gnupg wget sudo curl -y
 rm /etc/ssh/ssh_host_*
 dpkg-reconfigure openssh-server
+sudo timedatectl set-timezone Europe/Moscow
 hostname -I
 cd
 rm ssh-add-keys.sh
