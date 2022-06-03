@@ -1,9 +1,9 @@
 !#/bin/bash
-apt update
-apt upgrade -y
-sudo apt install libicu-dev -y
-passwd
 bash no-password.sh
+passwd
+apt update
+sudo apt install libicu-dev -y
+apt upgrade -y
 sudo bash socks5.sh
 bash jackett.sh
 bash qbittorrent.sh
