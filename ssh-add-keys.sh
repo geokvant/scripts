@@ -9,5 +9,6 @@ rm /etc/ssh/ssh_host_*
 dpkg-reconfigure openssh-server
 sudo timedatectl set-timezone Europe/Moscow
 hostname -I
+sleep 2s
 cd
 rm ssh-add-keys.sh
