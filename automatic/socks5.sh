@@ -20,7 +20,7 @@ cat << EOF >> /etc/shadowsocks-libev/vpnbook.json
     "prefer_ipv6": false
 }
 EOF
-rm /usr/lib/systemd/system/shadowsocks-libev-local@.service
+sudo rm /usr/lib/systemd/system/shadowsocks-libev-local@.service
 cat << EOF >> /usr/lib/systemd/system/shadowsocks-libev-local@.service
 [Unit]
 Description=Shadowsocks-Libev Custom Client Service for VPNBOOK
