@@ -6,7 +6,7 @@ sudo apt install libicu-dev -y
 apt upgrade -y
 sudo bash socks5.sh
 bash jackett.sh
-bash qbittorrent.sh
+sudo bash qbittorrent.sh
 bash radarr.sh
 echo "Radarr port 7878"
 echo "Jackett port 9117"
