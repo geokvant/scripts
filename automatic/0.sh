@@ -16,5 +16,5 @@ wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/socks5.sh
 wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/qbittorrent.sh
 wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/jackett.sh
 wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/radarr.sh
-chown -R user.user 1_start_all.sh no-password.sh qbittorrent.sh socks5.sh
+chown -R user.user 1_start_all.sh no-password.sh qbittorrent.sh socks5.sh radarr.sh jackett.sh
 hostname -I
