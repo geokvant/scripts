@@ -10,7 +10,9 @@ chown user.user -R /home/user/.ssh
 cp /root/.ssh/authorized_keys /home/user/.ssh/authorized_keys
 chown user.user -R /home/user/.ssh/authorized_keys
 cd /home/user
-wget 
-wget
-wget
-wget
+wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/2_start_all.sh
+wget https://raw.githubusercontent.com/geokvant/scripts/main/no-password.sh
+wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/socks5.sh
+wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/qbittorrent.sh
+wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/jackett.sh
+wget https://raw.githubusercontent.com/geokvant/scripts/main/automatic/radarr.sh
