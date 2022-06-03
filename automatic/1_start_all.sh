@@ -1,4 +1,6 @@
 !#/bin/bash
+apt update
+apt upgrade -y
 passwd
 bash no-password.sh
 bash socks5.sh
