@@ -43,3 +43,4 @@ sudo systemctl enable shadowsocks-libev-local@vpnbook.service
 sudo systemctl start shadowsocks-libev-local@vpnbook.service
 sudo systemctl status shadowsocks-libev-local@vpnbook.service
 curl --socks5 127.0.0.1 eth0.me
+sleep 2s
