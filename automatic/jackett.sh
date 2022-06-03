@@ -6,5 +6,8 @@ rm Jackett.Binaries.LinuxAMDx64.tar.gz
 sudo mv Jackett /opt/
 cd /opt/Jackett
 ./jackett
+sed -i 's/"ProxyType": 0,/"ProxyType": 2,/g' /home/$USER/.config/Jackett/ServerConfig.json
+sed -i 's/"ProxyUrl": null,/"ProxyUrl": "127.0.0.1",/g' /home/$USER/.config/Jackett/ServerConfig.json
+sed -i 's/"ProxyPort": null,/"ProxyPort": 1080,/g' /home/$USER/.config/Jackett/ServerConfig.json
 sudo ./install_service_systemd.sh
 sudo systemctl status jackett.service
