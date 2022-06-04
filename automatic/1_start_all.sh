@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 bash no-password.sh
 passwd
 apt update
