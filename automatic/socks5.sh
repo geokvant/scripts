@@ -10,7 +10,7 @@ cat << EOF >> /etc/shadowsocks-libev/vpnbook.json
 {
     "server":"ca231.vpnbook.com",
     "server_port":80,
-    "local_address": "127.0.0.1",
+    "local_address": "0.0.0.0",
     "local_port":1080,
     "password":"6smnvua",
     "timeout":300,
